@@ -1,0 +1,587 @@
+2021-03-19 17:40:18,313 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.dummy.potter.rest_tutorial.RestTutorialApplicationTests], using SpringBootContextLoader
+2021-03-19 17:40:18,322 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.dummy.potter.rest_tutorial.RestTutorialApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-19 17:40:18,323 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.dummy.potter.rest_tutorial.RestTutorialApplicationTests]: RestTutorialApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-19 17:40:18,447 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.dummy.potter.rest_tutorial.RestTutorialApplication for test class com.dummy.potter.rest_tutorial.RestTutorialApplicationTests
+2021-03-19 17:40:18,557 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-19 17:40:18,582 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2254127a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51891008, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f953efd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@f68f0dc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@d2de489, org.springframework.test.context.transaction.TransactionalTestExecutionListener@14bdbc74, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@12591ac8, org.springframework.test.context.event.EventPublishingTestExecutionListener@5a7fe64f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@38145825, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@41330d4f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b66c0fb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3e0e1046, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@24c1b2d2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7dc19a70]
+2021-03-19 17:40:33,981 WARN org.springframework.boot.StartupInfoLogger [main] InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-03-19 17:40:39,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 17:40:39,620 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 17:40:40,070 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 17:40:40,336 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='605494c043663571eb8eb381', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2021-03-19 17:40:40,336 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='605494c043663571eb8eb381', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:27017
+2021-03-19 17:40:40,338 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='605494c043663571eb8eb381', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=195831155}
+2021-03-19 17:40:40,953 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 17:40:41,685 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 17:59:31,389 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 17:59:31,552 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 152 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 17:59:32,582 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 17:59:32,600 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 17:59:32,601 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 17:59:32,603 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 17:59:32,789 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 17:59:32,790 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2345 ms
+2021-03-19 17:59:33,249 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 17:59:33,467 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054992d52e5b63efd28376f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:3}] to localhost:27017
+2021-03-19 17:59:33,467 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054992d52e5b63efd28376f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017
+2021-03-19 17:59:33,471 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054992d52e5b63efd28376f', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=50071598}
+2021-03-19 17:59:34,111 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 17:59:34,366 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 17:59:34,387 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 17:59:34,423 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:00:26,848 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:00:26,849 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:02:12,543 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:02:12,619 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:02:13,072 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:02:13,081 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:02:13,081 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:02:13,082 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:02:13,142 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:02:13,143 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1198 ms
+2021-03-19 18:02:13,311 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:02:13,431 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='605499cdee6a7a04af7ff197', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017
+2021-03-19 18:02:13,431 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='605499cdee6a7a04af7ff197', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+2021-03-19 18:02:13,432 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='605499cdee6a7a04af7ff197', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=35570685}
+2021-03-19 18:02:13,774 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:02:13,938 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:02:13,952 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:02:13,980 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:03:21,229 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:03:21,230 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:03:59,595 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:03:59,672 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:04:00,131 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:04:00,140 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:04:00,141 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:04:00,141 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:04:00,199 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:04:00,199 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1202 ms
+2021-03-19 18:04:00,368 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:04:00,515 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549a3894643d4081545f83', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:7}] to localhost:27017
+2021-03-19 18:04:00,515 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549a3894643d4081545f83', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+2021-03-19 18:04:00,517 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549a3894643d4081545f83', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27302505}
+2021-03-19 18:04:00,880 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:04:01,054 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:04:01,067 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:04:01,096 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:04:41,776 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:04:41,777 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:05:35,305 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:05:35,384 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:05:35,867 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:05:35,877 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:05:35,878 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:05:35,878 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:05:35,940 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:05:35,940 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1190 ms
+2021-03-19 18:05:36,107 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:05:36,230 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549a9814c5c5405b5e691d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:9}] to localhost:27017
+2021-03-19 18:05:36,230 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549a9814c5c5405b5e691d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:10}] to localhost:27017
+2021-03-19 18:05:36,231 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549a9814c5c5405b5e691d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25271063}
+2021-03-19 18:05:36,580 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:05:36,744 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:05:36,757 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:05:36,780 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:06:09,165 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:06:09,167 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:06:55,824 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:06:55,897 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 67 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:06:56,340 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:06:56,350 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:06:56,350 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:06:56,351 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:06:56,414 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:06:56,414 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1164 ms
+2021-03-19 18:06:56,582 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:06:56,709 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549ae8f5c25026dcdd73eb', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:12}] to localhost:27017
+2021-03-19 18:06:56,709 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549ae8f5c25026dcdd73eb', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:11}] to localhost:27017
+2021-03-19 18:06:56,710 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549ae8f5c25026dcdd73eb', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24399137}
+2021-03-19 18:06:57,051 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:06:57,210 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:06:57,224 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:06:57,247 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:09:04,828 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:09:04,829 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:09:20,799 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:09:20,866 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:09:21,298 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:09:21,306 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:09:21,307 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:09:21,307 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:09:21,363 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:09:21,364 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1093 ms
+2021-03-19 18:09:21,526 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:09:21,640 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549b799f51cb52c6b6e73c', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2021-03-19 18:09:21,640 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549b799f51cb52c6b6e73c', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:14}] to localhost:27017
+2021-03-19 18:09:21,641 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549b799f51cb52c6b6e73c', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=28898366}
+2021-03-19 18:09:21,975 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:09:22,133 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:09:22,148 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:09:22,171 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:18:03,548 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:18:03,551 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:18:19,600 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:18:19,670 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:18:20,183 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:18:20,192 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:18:20,192 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:18:20,192 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:18:20,252 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:18:20,253 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1174 ms
+2021-03-19 18:18:20,402 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:18:20,513 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549d94670be02cfcc61479', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:15}] to localhost:27017
+2021-03-19 18:18:20,513 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549d94670be02cfcc61479', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2021-03-19 18:18:20,515 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549d94670be02cfcc61479', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22357152}
+2021-03-19 18:18:20,848 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:18:21,006 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:18:21,018 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:18:21,041 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:19:28,909 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:19:28,910 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:20:04,116 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:20:04,192 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:20:04,687 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:20:04,696 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:20:04,697 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:20:04,697 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:20:04,756 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:20:04,756 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1252 ms
+2021-03-19 18:20:04,937 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:20:05,050 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549dfc2786783fabcfbedf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:18}] to localhost:27017
+2021-03-19 18:20:05,050 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549dfc2786783fabcfbedf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:17}] to localhost:27017
+2021-03-19 18:20:05,052 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549dfc2786783fabcfbedf', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=30266306}
+2021-03-19 18:20:05,444 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:20:05,634 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:20:05,666 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:20:05,692 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:21:33,379 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:21:33,381 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:21:49,488 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:21:49,589 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:21:50,085 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:21:50,094 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:21:50,095 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:21:50,096 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:21:50,158 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:21:50,158 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1279 ms
+2021-03-19 18:21:50,330 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:21:50,491 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549e6605f479015f14e3c6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:19}] to localhost:27017
+2021-03-19 18:21:50,491 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549e6605f479015f14e3c6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:20}] to localhost:27017
+2021-03-19 18:21:50,493 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549e6605f479015f14e3c6', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=70177812}
+2021-03-19 18:21:50,885 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:21:51,072 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:21:51,089 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:21:51,120 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:22:51,103 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:22:51,104 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:23:39,568 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:23:39,644 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:23:40,154 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:23:40,166 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:23:40,166 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:23:40,167 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:23:40,230 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:23:40,230 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1308 ms
+2021-03-19 18:23:40,467 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:23:40,655 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549ed42bfdc33cc02efaae', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:22}] to localhost:27017
+2021-03-19 18:23:40,655 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549ed42bfdc33cc02efaae', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:21}] to localhost:27017
+2021-03-19 18:23:40,659 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549ed42bfdc33cc02efaae', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=68395513}
+2021-03-19 18:23:41,032 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:23:41,218 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:23:41,233 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:23:41,261 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:25:34,259 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:25:34,261 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:25:48,296 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:25:48,361 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:25:48,779 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:25:48,787 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:25:48,788 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:25:48,788 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:25:48,843 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:25:48,843 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1063 ms
+2021-03-19 18:25:48,985 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:25:49,105 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549f5430e8f049f12c8882', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:23}] to localhost:27017
+2021-03-19 18:25:49,105 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60549f5430e8f049f12c8882', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:24}] to localhost:27017
+2021-03-19 18:25:49,106 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60549f5430e8f049f12c8882', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=28641391}
+2021-03-19 18:25:49,459 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:25:49,644 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:25:49,659 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:25:49,688 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:30:31,101 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:30:31,103 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:30:44,176 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:30:44,241 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:30:44,670 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:30:44,680 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:30:44,681 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:30:44,681 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:30:44,735 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:30:44,736 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1078 ms
+2021-03-19 18:30:44,882 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:30:44,995 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054a07cbcf20027555d4af4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+2021-03-19 18:30:44,995 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a07cbcf20027555d4af4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2021-03-19 18:30:44,996 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a07cbcf20027555d4af4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=28693231}
+2021-03-19 18:30:45,342 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:30:45,510 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:30:45,524 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:30:45,546 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:32:05,850 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:32:05,852 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:32:38,970 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:32:39,039 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:32:39,521 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:32:39,530 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:32:39,530 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:32:39,530 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:32:39,616 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:32:39,620 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1204 ms
+2021-03-19 18:32:39,802 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:32:39,930 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054a0efe00f896436e8c346', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:27}] to localhost:27017
+2021-03-19 18:32:39,930 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a0efe00f896436e8c346', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:28}] to localhost:27017
+2021-03-19 18:32:39,931 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a0efe00f896436e8c346', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32942324}
+2021-03-19 18:32:40,352 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:32:40,552 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:32:40,585 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:32:40,612 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:34:08,620 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:34:08,622 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:34:24,341 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:34:24,416 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:34:24,866 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:34:24,876 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:34:24,876 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:34:24,877 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:34:24,943 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:34:24,944 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1203 ms
+2021-03-19 18:34:25,111 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:34:25,239 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054a1594b4c283991d1e457', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:30}] to localhost:27017
+2021-03-19 18:34:25,239 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a1594b4c283991d1e457', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:29}] to localhost:27017
+2021-03-19 18:34:25,241 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a1594b4c283991d1e457', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=35476752}
+2021-03-19 18:34:25,623 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:34:25,805 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:34:25,822 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:34:25,850 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:34:49,725 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:34:49,729 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:35:02,629 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:35:02,698 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:35:03,140 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:35:03,149 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:35:03,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:35:03,151 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:35:03,211 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:35:03,212 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1108 ms
+2021-03-19 18:35:03,367 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:35:03,479 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054a17fd559fd7456b2bd6e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:32}] to localhost:27017
+2021-03-19 18:35:03,479 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a17fd559fd7456b2bd6e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2021-03-19 18:35:03,481 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a17fd559fd7456b2bd6e', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=28208614}
+2021-03-19 18:35:03,848 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:35:04,021 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:35:04,035 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:35:04,060 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:35:49,844 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:35:49,851 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:36:15,954 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 18:36:16,023 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 18:36:16,465 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 18:36:16,474 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:36:16,475 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 18:36:16,475 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 18:36:16,534 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 18:36:16,535 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1166 ms
+2021-03-19 18:36:16,686 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 18:36:16,806 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054a1c8338ed54834ce3ae1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:33}] to localhost:27017
+2021-03-19 18:36:16,806 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a1c8338ed54834ce3ae1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:34}] to localhost:27017
+2021-03-19 18:36:16,808 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a1c8338ed54834ce3ae1', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33411434}
+2021-03-19 18:36:17,178 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 18:36:17,374 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 18:36:17,391 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 18:36:17,416 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 18:37:05,139 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 18:37:05,141 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 19:05:48,774 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 19:05:48,852 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 19:05:49,341 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 19:05:49,350 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 19:05:49,351 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 19:05:49,351 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 19:05:49,410 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 19:05:49,410 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1199 ms
+2021-03-19 19:05:49,567 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 19:05:49,686 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a8b58db4a85e00e99aa1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:36}] to localhost:27017
+2021-03-19 19:05:49,686 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054a8b58db4a85e00e99aa1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:35}] to localhost:27017
+2021-03-19 19:05:49,688 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a8b58db4a85e00e99aa1', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=34322537}
+2021-03-19 19:05:50,075 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 19:05:50,242 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 19:05:50,255 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 19:05:50,279 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 19:05:50,316 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-3] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:05:55,294 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:06:00,296 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-3] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:06:05,299 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:06:10,300 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:06:15,306 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:06:20,306 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:06:25,313 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-8] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:06:26,209 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 19:06:26,210 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 19:08:16,110 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 19:08:16,192 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 19:08:16,655 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 19:08:16,666 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 19:08:16,667 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 19:08:16,667 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 19:08:16,732 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 19:08:16,733 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1185 ms
+2021-03-19 19:08:16,904 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 19:08:17,026 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a948b9969e1133dd306a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:38}] to localhost:27017
+2021-03-19 19:08:17,026 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054a948b9969e1133dd306a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:37}] to localhost:27017
+2021-03-19 19:08:17,027 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a948b9969e1133dd306a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=29779476}
+2021-03-19 19:08:17,427 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 19:08:17,623 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-19 19:08:17,642 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 19:08:17,673 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 19:08:17,698 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-3] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:08:22,688 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:08:27,688 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-3] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:08:32,693 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:08:37,694 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:08:40,381 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-19 19:08:40,382 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-19 19:08:40,386 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2021-03-19 19:08:42,700 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:08:47,700 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-6] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:08:50,684 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'org.bson.types.ObjectId'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable org.bson.types.ObjectId] for value 'favicon.ico'; nested exception is java.lang.IllegalArgumentException: invalid hexadecimal representation of an ObjectId: [favicon.ico]]
+2021-03-19 19:08:52,705 ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler [task-8] Unexpected exception occurred invoking async method: public void com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch()
+java.lang.RuntimeException: SIKE
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers.fixedRate1Sch(TestSchedulers.java:18)
+	at com.dummy.potter.rest_tutorial.schedulers.TestSchedulers$$FastClassBySpringCGLIB$$ee1906cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-19 19:08:56,550 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-19 19:08:56,553 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-19 19:09:43,241 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-19 19:09:43,308 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 1 MongoDB repository interfaces.
+2021-03-19 19:09:43,755 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-19 19:09:43,764 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-19 19:09:43,765 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-19 19:09:43,765 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-19 19:09:43,824 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-19 19:09:43,824 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1175 ms
+2021-03-19 19:09:43,984 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-19 19:09:44,108 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a99fd3e33a59816be779', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:40}] to localhost:27017
+2021-03-19 19:09:44,108 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6054a99fd3e33a59816be779', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:39}] to localhost:27017
+2021-03-19 19:09:44,110 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6054a99fd3e33a59816be779', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32305778}
+2021-03-19 19:09:44,480 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-19 19:09:44,692 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-19 19:09:44,725 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-19 19:10:03,648 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-19 19:10:03,649 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-19 19:10:03,651 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-03-19 19:10:13,837 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'org.bson.types.ObjectId'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable org.bson.types.ObjectId] for value 'favicon.ico'; nested exception is java.lang.IllegalArgumentException: invalid hexadecimal representation of an ObjectId: [favicon.ico]]
+2021-03-19 19:14:42,103 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

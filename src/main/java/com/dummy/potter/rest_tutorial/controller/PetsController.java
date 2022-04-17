@@ -3,20 +3,23 @@ package com.dummy.potter.rest_tutorial.controller;
 import com.dummy.potter.rest_tutorial.event.CustomEvent;
 import com.dummy.potter.rest_tutorial.event.CustomEventPublisher;
 import com.dummy.potter.rest_tutorial.model.Pets;
-import com.dummy.potter.rest_tutorial.repository.PetsRepository;
 import com.dummy.potter.rest_tutorial.service.PetService;
-import com.dummy.potter.rest_tutorial.service.impl.PetServiceImpl;
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/pet")
 public class PetsController {
 
     private final static Logger logger = LoggerFactory.getLogger(PetsController.class);

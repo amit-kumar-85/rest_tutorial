@@ -1,5 +1,0 @@
-2021-07-27 17:12:24 INFO List com.dummy.potter.rest_tutorial.service.impl.PetServiceImpl.getAllPets() executed in 2 ms
-2021-07-27 17:12:27 INFO List com.dummy.potter.rest_tutorial.service.impl.PetServiceImpl.getAllPets() executed in 2 ms
-2021-07-27 17:12:32 INFO List com.dummy.potter.rest_tutorial.service.impl.PetServiceImpl.getAllPets() executed in 3 ms
-2021-07-27 17:12:44 INFO {}
-2021-07-27 17:12:44 INFO Pets com.dummy.potter.rest_tutorial.service.impl.PetServiceImpl.getPetById(ObjectId) executed in 2 ms

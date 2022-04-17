@@ -24,7 +24,7 @@ public class PetServiceImpl implements PetService {
     @Override
     public String testService() {
 
-        for(int i=0;i<1000;++i) {
+        for(int i=0;i<5;++i) {
             logger.info(i+"th INFO Message");
         }
         return "ok";

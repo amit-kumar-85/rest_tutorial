@@ -1,18 +1,27 @@
 package com.dummy.potter.rest_tutorial.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "Pets")
 @JsonIgnoreProperties(ignoreUnknown = true)
+@ApiModel(description = "Details about the Pets Object")
 public class Pets {
     @Id
+    @ApiModelProperty(notes = "unique id for the pet")
     public ObjectId _id;
 
+    @ApiModelProperty(notes = "name of the pet")
     public String name;
+
+    @ApiModelProperty(notes = "species of the pet")
     public String species;
+
+    @ApiModelProperty(notes = "Breed for the pet")
     public String breed;
 
     // Constructors

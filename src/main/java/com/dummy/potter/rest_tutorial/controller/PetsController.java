@@ -4,6 +4,8 @@ import com.dummy.potter.rest_tutorial.event.CustomEvent;
 import com.dummy.potter.rest_tutorial.event.CustomEventPublisher;
 import com.dummy.potter.rest_tutorial.model.Pets;
 import com.dummy.potter.rest_tutorial.service.PetService;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,6 +31,7 @@ public class PetsController {
     @Autowired
     private CustomEventPublisher publisher;
 
+    @ApiOperation(value = "Test API for logging", notes = "Do not call, it for test only", response = String.class)
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public String test(){
 //        logger.trace("cont. A TRACE Message");
@@ -45,8 +48,14 @@ public class PetsController {
         return petService.getAllPets();
     }
 
+    @ApiOperation(value = "Get Pet by ID", notes = "To get Particular pet", response = Pets.class)
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Pets getPetById(@PathVariable("id") ObjectId id, @RequestParam Map<String, String> requestParam){
+    public Pets getPetById(@ApiParam(value = "Id for the pet", required = true)
+                           @PathVariable("id") ObjectId id,
+
+                           @ApiParam(value = "Extra useless Parameter", required = false)
+                           @RequestParam Map<String, String> requestParam){
+
         logger.info(requestParam.toString());
         return petService.getPetById(id);
     }
